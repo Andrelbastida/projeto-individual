@@ -1,0 +1,23 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    overflow: hidden; /* Isto retira a barra de rolagem do site */
+    font-size: large;
+
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#page2{
+    display: none; /* display está invisivel*/
+    
+}
