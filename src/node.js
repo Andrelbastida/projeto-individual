@@ -8,6 +8,7 @@ function inserir(){
     //Ocultar pagina 1 e exibir pagina 2
         let p1 = document.getElementById('page1')
         let p2 = document.getElementById('page2')
+        let t2 = document.getElementById('teste2')
 
         p1.style.display  = 'none' // este comando esconde a pagina 1
         p2.style.display = 'flex' // este comando mostra a pagina 2
@@ -15,7 +16,7 @@ function inserir(){
 
     // Inserir o código HTML
         let codeHtml = document.getElementById('codeHtml').value
-        main.innerHTML = codeHtml
+        t2.innerHTML = codeHtml
         
 /*
     // Inserir o código em JS

@@ -1,0 +1,153 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    height: 100%;
+}
+
+body {
+    
+    display: flex;
+    flex-direction:column;
+
+    height: 100%;
+
+}
+header{
+    font-size: 30px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items:center ;
+    justify-content:space-between ;
+   
+    padding-bottom: 0px;
+    padding-top: 0px;
+    background: linear-gradient(180.0deg, #353435 20.31%, #302f2f 90.0% );
+    
+    text-align: center;   
+    height: 100px;
+    
+}
+#btns{
+    width: 650px;
+    height: 60px;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#executar{
+    height: 60px;
+    width: 180px;
+    background: linear-gradient(
+    257.91deg,
+    #c366ff 17.54%,
+    #d37fc8 54.55%,
+    #e95582 72.93%
+  );
+  border-style: none;
+    font-size: 40px;
+    color: #190a29;
+    margin-right: 30px;
+    border-radius: 15px;
+    user-select: none;
+    cursor: pointer; 
+
+}
+#voltarPagina{
+    height: 60px;
+    width: 180px;
+    background: linear-gradient(
+    257.91deg,
+    #c366ff 17.54%,
+    #d37fc8 54.55%,
+    #e95582 72.93%
+  );
+  border-style: none;
+    font-size: 40px;
+    color: #190a29;
+    margin-right: 30px;
+    border-radius: 15px;
+    user-select: none;
+    cursor: pointer; 
+}
+#limparCampo{
+    height: 60px;
+    width: 180px;
+    background: linear-gradient(
+    257.91deg,
+    #c366ff 17.54%,
+    #d37fc8 54.55%,
+    #e95582 72.93%
+  );
+  border-style: none;
+    font-size: 40px;
+    color: #190a29;
+    margin-right: 30px;
+    border-radius: 15px;
+    user-select: none;
+    cursor: pointer; 
+    
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(241.29deg, #938f97 10.31%, #1a1919 93.41%)
+}
+.campoNome{
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%; 
+}
+
+#card{
+    height: 90%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    justify-content:space-around ;
+    
+    
+    flex-direction: row;
+}
+#texthtml{
+    background-color: rgba(26, 32, 26, 0.411);
+    color: rgba(255, 255, 255, 0.452);
+    width: 1000px;
+    height: 1300px;
+    font-size: 30px;
+}
+#textjs{
+    background-color: rgba(26, 32, 26, 0.411);
+    color: white;
+    width: 1000px;
+    height: 1300px;
+    font-size: 30px;
+
+}
+#inserirhtml{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#inserirhtml h1{
+    color: #ffffff;
+}
+#inserirjs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#inserirjs h1{
+    color: #ffffff;
+}
