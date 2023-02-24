@@ -1,10 +1,11 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background: linear-gradient(241.29deg, #4b494d 10.31%, #1a1919 93.41%);
     color: white;
     overflow: hidden; /* Isto retira a barra de rolagem do site */
     font-size: large;
+    font-family: "Montserrat", sans-serif;
 
 }
 
@@ -17,7 +18,30 @@ section{
     gap: 20px;
 }
 
+#run{
+    background:linear-gradient(
+    257.91deg,
+    #c366ff 17.54%,
+    #d37fc8 54.55%,
+    #e95582 72.93%
+  );
+  font-weight:bold;
+  color: white;
+
+  user-select: none;
+    cursor: pointer; 
+}
+
 #page2{
     display: none; /* display está invisivel*/
-    
+
+}
+#page2 main{
+    h1 {
+        width: 600px;
+        text-align: left;
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
 }

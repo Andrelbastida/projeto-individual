@@ -9,13 +9,12 @@ function inserir(){
 
         p1.style.display  = 'none' // este comando esconde a pagina 1
         p2.style.display = 'flex' // este comando mostra a pagina 2
-/*
+
     // Inserir o código HTML
         let codeHtml = document.getElementById('codeHtml').value
         p2.innerHTML = codeHtml
         
-
-
+/*
     // Inserir o código em JS
         let codeJs = document.getElementById('codeJs').value
         document.getElementById('jsUser').innerHTML = codeJs
