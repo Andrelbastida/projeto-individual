@@ -34,14 +34,28 @@ section{
 
 #page2{
     display: none; /* display está invisivel*/
+    
 
 }
 #page2 main{
-    h1 {
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         width: 600px;
         text-align: left;
         font-size: 28px;
         margin-top: 30px;
         margin-bottom: 10px;
-      }
+    
+}
+#btnCalcular{
+    background:linear-gradient(
+    257.91deg,
+    #c366ff 17.54%,
+    #d37fc8 54.55%,
+    #e95582 72.93%
+  );
+  font-weight:bold;
+  color: white;
+
+  user-select: none;
+    cursor: pointer; 
 }

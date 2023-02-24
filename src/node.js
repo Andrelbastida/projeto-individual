@@ -1,5 +1,7 @@
 var btn = document.getElementById('run')
 btn.addEventListener('click',inserir)
+var main = document.getElementById('teste2')
+
 
 function inserir(){
 
@@ -9,10 +11,11 @@ function inserir(){
 
         p1.style.display  = 'none' // este comando esconde a pagina 1
         p2.style.display = 'flex' // este comando mostra a pagina 2
+    
 
     // Inserir o código HTML
         let codeHtml = document.getElementById('codeHtml').value
-        p2.innerHTML = codeHtml
+        main.innerHTML = codeHtml
         
 /*
     // Inserir o código em JS
