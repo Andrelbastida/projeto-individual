@@ -1,24 +1,38 @@
-var bot_exec = document.getElementById('executar')
-bot_exec.addEventListener('click',executar)
-var bot_limp = document.getElementById('limparCampo')
-bot_limp.addEventListener('click',limpar)
-var oct_html = 0;
-var oct_js = 0;
-var tex_html = document.getElementById('texthtml').value;
-var tex_js = document.getElementById('textjs').value;
+var btn = document.getElementById('run')
+btn.addEventListener('click',inserir)
+var main = document.getElementById('teste2')
 
 
-function executar(){
-    oct_html = document.getElementById('inserirhtml').style.display = 'none'
-    oct_js = document.getElementById('inserirjs').style.display = 'none'
-}
+function inserir(){
 
-function limpar(){
-    oct_html = document.getElementById('inserirhtml').style.display = 'block'
-    oct_js = document.getElementById('inserirjs').style.display = 'block'
-    document.getElementById('texthtml').innerHTML = ""
-    document.getElementById('textjs').innerHTML = ""
+    //Ocultar pagina 1 e exibir pagina 2
+        let p1 = document.getElementById('page1')
+        let p2 = document.getElementById('page2')
+        let t2 = document.getElementById('teste2')
 
+        p1.style.display  = 'none' // este comando esconde a pagina 1
+        p2.style.display = 'flex' // este comando mostra a pagina 2
+    
 
+    // Inserir o código HTML
+        let codeHtml = document.getElementById('codeHtml').value
+        t2.innerHTML = codeHtml
+        
+/*
+    // Inserir o código em JS
+        let codeJs = document.getElementById('codeJs').value
+        document.getElementById('jsUser').innerHTML = codeJs
+*/
 
+        // Segundo modo de realizar essa função :
+
+        let codeJs = document.getElementById('codeJs').value
+
+        var tagScript = document.createElement('script')
+        tagScript.setAttribute('type','text/javascript')
+
+        var textScript = document.createTextNode(codeJs)
+
+        tagScript.appendChild(textScript)
+        document.body.appendChild(tagScript)
 }
