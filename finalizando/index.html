@@ -10,22 +10,24 @@
 
 <body id="myBody">
     <header id="myHeader">
-        <img src="./" alt="">
-        <h1>teste</h1>
+        <img src="../img/Logo.png">
+        
+        <h1>Conversor de Html</h1>
+        <input id="executar" type="button" value="Executar">
 
     </header>
     <div class="corpoPaginas">
         <section id="page1">
+           
+                <div class="caixahtml">
+                    <p>Insira seu código em HTML</p>
+                    <textarea id="codeHtml" cols="30" rows="10"></textarea>
+                </div>
 
-            <div class="caixahtml">
-                <p>Insira seu código em HTML</p>
-                <textarea id="codeHtml" cols="30" rows="10"></textarea>
-            </div>
-
-            <div class="caixajs">
-                <p>Insira seu código em JS</p>
-                <textarea id="codeJs" cols="30" rows="10"></textarea>
-            </div>
+                <div class="caixajs">
+                    <p>Insira seu código em JS</p>
+                    <textarea id="codeJs" cols="30" rows="10"></textarea>
+                </div>
             
         </section>
         
@@ -43,7 +45,8 @@
             <script id="jsUser"></script>
             <script src="./node.js"></script>
     </div>
-            <input id="run" type="button" value="Executar">
+            
+            <footer><h1>teste</h1></footer>
 </body>
 <script src="./node.js"></script>
 </html>

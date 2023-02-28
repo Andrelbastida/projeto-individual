@@ -1,4 +1,4 @@
-var btn = document.getElementById('run')
+var btn = document.getElementById('executar')
 btn.addEventListener('click',inserir)
 var main = document.getElementById('teste2')
 
